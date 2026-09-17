@@ -18,7 +18,7 @@ npm run lint   # ESLint
 
 ## API
 
-- Base URL: `http://192.168.2.167:8000/api` (override via `NEXT_PUBLIC_API_URL`)
+- Base URL: `http://localhost:8000/api` (override via `NEXT_PUBLIC_API_URL`)
 - Polling interval: 5000ms (`POLLING_INTERVAL_MS` in `constants.ts`)
 - Error handling: HTTP errors throw with `detail` message (API returns `{ detail: string }` on error)
 

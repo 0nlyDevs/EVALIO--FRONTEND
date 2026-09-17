@@ -1,5 +1,5 @@
 // API base URL — points to the Evalio backend
-export const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://192.168.2.167:8000/api";
+export const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api";
 
 // Accent colors (CSS var names) cycled per project card
 export const ACCENT_COLORS = [

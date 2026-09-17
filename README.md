@@ -101,7 +101,7 @@ bun install
 Create a `.env.local` file in the root directory:
 
 ```env
-NEXT_PUBLIC_API_URL=http://192.168.2.167:8000/api
+NEXT_PUBLIC_API_URL=http://localhost:8000/api
 ```
 
 ### Development
@@ -195,7 +195,7 @@ The application connects to a backend API with the following endpoints:
 - `POST /create-project` - Submit a project
 - `POST /review` - Approve/reject a project
 
-API Base URL: `http://192.168.2.167:8000/api` (configurable via `NEXT_PUBLIC_API_URL`)
+API Base URL: `http://localhost:8000/api` (configurable via `NEXT_PUBLIC_API_URL`)
 
 ## Features
 
