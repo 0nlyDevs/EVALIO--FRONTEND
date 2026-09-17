@@ -257,8 +257,8 @@ function TechStack() {
         <h2 className="text-2xl sm:text-3xl font-extrabold text-center mb-8">Built with</h2>
       </BlurFade>
       <Marquee>
-        {TECH.map((t) => (
-          <span key={t} className="px-4 py-2 text-sm font-bold bg-white rounded-[4px] whitespace-nowrap" style={{ border: "2px solid #111", boxShadow: "2px 2px 0 #111" }}>
+        {[...TECH, ...TECH].map((t, i) => (
+          <span key={`${t}-${i}`} className="px-4 py-2 text-sm font-bold bg-white rounded-[4px] whitespace-nowrap" style={{ border: "2px solid #111", boxShadow: "2px 2px 0 #111" }}>
             {t}
           </span>
         ))}
